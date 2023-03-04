@@ -1,0 +1,46 @@
+body {
+  font-family: "Syne", sans-serif;
+}
+.container {
+  max-width: 1440px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 60px;
+  background-color: #f3f1f1;
+}
+.navbar-brand, .navbar-right, .navbar-menu ul, .icons ul{
+    display: flex;
+    align-items: center;
+}
+.navbar-brand img{
+    width: 48px;
+    margin-right: 25px;
+}
+.navbar-brand > a{
+    font-size: 16.84px;
+    font-weight: 700;
+    color: #232323;
+}  
+.navbar-menu{
+    margin-right: 20px;
+}
+.navbar-menu ul li a{
+    margin-right: 30px;
+    font-size: 600;
+    color: #000;
+}
+.navbar-menu ul li a:hover {
+    border-bottom: 2px solid #000;
+    transition: border-bottom 0.1s ease-in-out;
+    padding-bottom: 5px;
+  }
+.instagram, .twitter{
+    width: 24px;
+    margin-left: 30px;
+}
+.facebook{
+    width: 18px;
+}
