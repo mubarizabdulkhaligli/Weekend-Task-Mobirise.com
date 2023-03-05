@@ -14,7 +14,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 10px 60px;
-  background-color: #f3f1f1;
 }
 .navbar-brand,
 .navbar-right,
@@ -462,3 +461,65 @@ header {
   font-weight: 400;
 }
 /* Contact Section End */
+/* Main Section End */
+
+/* Footer Section Start */
+footer{
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 250px;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  margin-top: 80px;
+  padding: 30px;
+  align-items: center;
+}
+.footer{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 30px;
+  padding: 30px 0;
+}
+.footer img{
+  width: 140px;
+}
+.footer-logo{
+  margin-right: 100px;
+}
+.footer-left, .footer-middle{
+  margin-right: 200px;
+}
+.footer-right{
+  margin-right: 60px;
+}
+.footer a{
+  color: #000;
+  line-height: 32px;
+}
+.footer a:hover{
+  color: #ff2a08;
+}
+.footer input{
+  background-color: transparent;
+  border: 2px #e8e8e8 solid;
+  padding: 15px 50px 15px 15px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.footer button{
+  padding: 15px 25px;
+  border: 2px #000 solid;
+  font-family: "Syne", sans-serif;
+  font-size: 16.84px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.footer button:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+
+
