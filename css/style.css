@@ -401,3 +401,64 @@ header {
 }
 /* Shop Section End */
 
+/* Contact Section Start */
+
+.contact{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 85px 30px;
+}
+.contact-left h4{
+  font-family: "Syne", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.contact-left h6{
+  color: #626262;
+}
+.contact-left a{
+  font-family: "Syne", sans-serif;
+  font-size: 16.84px;
+  font-weight: 400;
+  color: #000;
+  line-height: 25px;
+}
+.contact-left a:hover{
+  color: #ff2a08;
+}
+.inputs{
+  display: flex;
+}
+.inputs>div{
+  display: flex;
+  width: 350px;
+  height: 70px;
+  border: 1px #989898 solid;
+}
+.inputs input{
+  border: none;
+  width: 350px;
+  height: 68px;
+  padding: 20px;
+  font-family: "Syne", sans-serif;
+  font-size: 16.84px;
+  font-weight: 400;
+}
+.message{
+  width: 700px;
+  height: 120px;
+  border: 1px #989898 solid;
+  margin-bottom: 20px;
+}
+.message input{
+  border: none;
+  width: 698px;
+  height: 118px;
+  padding: 20px;
+  font-family: "Syne", sans-serif;
+  font-size: 16.84px;
+  font-weight: 400;
+}
+/* Contact Section End */
